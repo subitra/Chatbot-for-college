@@ -1,0 +1,108 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, what can i do for you?", "Hola!", "Hello, how may i help?", "Good greetings!", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Pleasure is all mine","Hope i was helpful"],
+         "context": [""]
+        },
+        {"tag": "no-answer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "about",
+         "patterns": ["Who are you?", "What's you name?", "What is your name?", "You are?", "What up?", "What's up?"],
+         "responses": ["Iam GRIETbot, I am here to help you.", "My name is GRIETbot, a Chatbot designed for GRIET college", "I am a chatbot, they call me GRIETBOT, What up there?"],
+         "context": [""]
+        },	
+	{"tag": "options",
+         "patterns": ["How could you help me?", "What can you do?", "How can you be helpful?", "What do you do?","Help me"],
+         "responses": ["I can guide you through the GRIET campus placements, Fee structure , Courses and Syllabus. For more info navigate to 'HELP' on the top.", "I am GRIETbot, a Chatbot designed for GRIET college to provide details about GRIET college. For more info navigate to 'HELP' on the top.", "I can help Students, Parents and visitors to know more about GRIET college. What do you want to know?. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "courses",
+         "patterns": ["What courses are offered?", "Tell me about the courses", "Courses", "I want to know the courses offered", "Courses offered", "How many courses are offered"],
+         "responses": ["There are numerous courses offered like CSE, ECE, EEE, Mechanical, Civil, Humanities and Science. For more info navigate to 'HELP' on the top.", "Offered courses are CSE, ECE, EEE, Mechanical, Civil and many more. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "placements",
+         "patterns": ["GRIET placements", "Placements", "Which companies visited GRIET?", "Placements in College", "Tell me about the placements", "Are there good placements in the college?", "Placement statistics"],
+         "responses": ["796* STUDENTS PLACED IN 2019 TILL FEBRUARY 2019, 100+ STUDENTS PLACED WITH ABOVE 6 LAKHS CTC. Amazon, Microsoft, Kony Inida, TCS, Wipro, Tech Mahindra are one of the few companies among 110 companies visiting GRIET every year. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "cse",
+         "patterns": ["What subjects are offered in cse?", "Tell me about the subjects in cse", "CSE subjects", "I want to know the subjects provided in cse", "Subjects offered in cse", "computer science and engineering courses"],
+         "responses": ["Compiler Design,Big data analytics, Artificial Intelligence and Neural Networks, Data Structures, Design and Analysis of Algorithms are a few subjects offered in Computer Science and Engineering. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	
+	{"tag": "Ranking",
+         "patterns": ["GRIET ranking", "Tell me ranking of GRIET", "Ranking","Rank"],
+         "responses": ["-->179th Rank in Engineering Category by National Institutional Ranking Framework 2019 (NIRF), Ministry of Human Resources and Development, Government of India.Received All India 37th Rank & 6th Rank in Telangana in India Private Higher Education Rankings 2019-20 by Education World.3rd rank in Top 25 Telangana Private Engineering Institute Rankings 2019. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	
+        {"tag": "scholarships",
+         "patterns": ["Scholarship", "Fee Reimbursement"],
+         "responses": ["All the students securing EAMCET rank below 10K are elligible for fee Reimbursement (provided they belong to EBC). For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	
+        {"tag": "club",
+         "patterns": ["club", "GRIET clubs", "Non curricular activities", "Groups and clubs"],
+         "responses": ["There are 25+ clubs in GRIET which support co-curricular activities in GRIET. Sports CLub, Literature Club, Computer Society Of India Student Body are a few among them. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	
+        {"tag": "griet",
+         "patterns": ["GRIET", "About college", "college details", "about griet"],
+         "responses": ["Gokaraju Rangaraju Institute of Engineering and Technology (GRIET) is established in 1997 by Dr. G Gangaraju as a self-financed institute under the aegis of Gokaraju Rangaraju Educational Society. GRIET is approved by AICTE, New Delhi, permanently affiliated to and autonomous under JNTUH, Hyderabad. GRIET is committed to quality education and is known for its innovative teaching practices. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "location",
+         "patterns": ["Where is GRIET located?", "college location", "griet location", "location" ],
+         "responses": ["Survey No. 288 Nizampet Road, Krishnaja Hills, Bachupally, Kukatpally, Hyderabad, Telangana 500090. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "phno",
+         "patterns": ["Phone","Number","Phone Number","PhNo","Contact Details"],
+         "responses": ["The contact details are--Phone Number : 072077 14441 and Email : griet@gmail.com. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "results",
+         "patterns": ["results","show me results"],
+         "responses": ["Results will be displayed on griet webpage. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "moodle",
+         "patterns": ["moodle"],
+         "responses": ["Moodle is a teacher student  interaction platform . For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "fee",
+         "patterns": ["fee","fee structure"],
+         "responses": ["For fee details go to help. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        },
+	{"tag": "exam",
+         "patterns": ["exam","exam notif"],
+         "responses": ["Exam notifications will be displayed under exam branch notification in GRIET webiste. For more info navigate to 'HELP' on the top."],
+         "context": [""]
+        }
+
+
+
+
+
+
+    ]
+}
